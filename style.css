@@ -1,0 +1,196 @@
+*{
+	margin: 0 auto;
+	padding:0;
+}
+
+/*search student home page start*/
+body {font-family: Arial, Helvetica, sans-serif;}
+.body-bg{
+  background-image: url("img/makeup-2824659_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.topsection{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding:30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	border: 3px solid #f1f1f1;
+	flex-direction: column;
+	border-radius: 10px;
+	margin-top:100px;
+}
+.topsection h1{
+	font-size: 40px;
+  color:#fff;
+}
+
+/* Full-width input fields */
+.search-form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Set a style for all buttons */
+.search-form button {
+  background-color: #fa2d64;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.search-form button:hover {
+  opacity: 0.8;
+}
+
+.searchbtn {
+  background-color: #fa2d64;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.searchbtn:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+/*.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}*/
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.search-form img.avatar {
+  width: 150px;
+  padding:20px;
+
+}
+
+.search-form .container{
+  padding: 40px;
+}
+
+/*span.psw {
+  float: right;
+  padding-top: 16px;
+}*/
+
+/* The Modal (background) */
+.search-form .modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: auto; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.search-form .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/*search student home page end*/
+
+/*student deatils page*/
+
+.student-details{
+	padding: 30px;
+}
+.student-details-top{
+	padding:50px;
+}
+.student-details-top h2{
+	font-size: 30px;
+	text-align: left;
+	padding:0px 10px;
+}
+.student-details-top a{
+	text-decoration: none;
+}
+.student-details .table{
+	width:90%;
+}
+.student-details .table p{
+	padding: 15px 10px 0px 10px;
+}
+
+/*student deatils page*/
