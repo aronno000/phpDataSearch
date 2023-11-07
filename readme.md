@@ -22,5 +22,3 @@
  - __bug-3:__ double id accepted, but it won't  __FIXED__
  - __bug-4:__ make functios for edit & delete __FIXED__
 
-
-A
